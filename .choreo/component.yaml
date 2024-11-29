@@ -8,6 +8,7 @@ endpoints:
     type: REST
     networkVisibilities:
       - Public
+      - Project
       - Organization
   - name: mi-management-api-https
     displayName: Management API HTTPS
@@ -17,6 +18,7 @@ endpoints:
     type: REST
     networkVisibilities:
       - Public
+      - Project
       - Organization
   - name: mi-service-api-http
     displayName: Service API HTTP
