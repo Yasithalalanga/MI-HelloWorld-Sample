@@ -83,8 +83,14 @@ algorithm = "AES"
 # password = "root"
 # driver = "com.mysql.jdbc.Driver"
 
-# [management_api]
-# protocols = "http"
+[management_api]
+protocols = "http"
+
+[management_api.jwt_token_security_handler]
+enable = false
+
+[management_api.authorization_handler]
+enable = false
 
 # [[internal_apis.users]]
 # user.name = "user-1"
