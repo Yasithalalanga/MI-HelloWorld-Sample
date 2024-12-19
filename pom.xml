@@ -351,5 +351,8 @@
     <dockerfile.base.image>wso2/wso2mi:4.2.0</dockerfile.base.image>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <project.scm.id>integration-project</project.scm.id>
+    <project.runtime.version>4.3.0</project.runtime.version>
+    <dockerfile.base.image>wso2/wso2mi:${project.runtime.version}</dockerfile.base.image>
   </properties>
 </project>
